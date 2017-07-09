@@ -1,0 +1,15 @@
+training data shape: (21180, 300)
+Testing data shape: (21467, 300)
+confusion matrix:
+        I-LOC  I-MISC  I-ORG  I-PER      O
+I-LOC       4       4     14      1    620
+I-MISC     86      26     36     50   1710
+I-ORG      36      24     50     31    932
+I-PER      10      10      8      2     41
+O         464     198    298    293  16519
+evaluation matrix:
+              I-LOC    I-MISC     I-ORG     I-PER         O
+precision  0.006667  0.099237  0.123153  0.005305  0.833367
+recall     0.006221  0.013627  0.046598  0.028169  0.929496
+f1         0.006436  0.023963  0.067613  0.008929  0.878810
+average f1s: 0.026735
